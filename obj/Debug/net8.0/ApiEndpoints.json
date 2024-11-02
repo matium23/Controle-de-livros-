@@ -1,0 +1,377 @@
+[
+  {
+    "ContainingType": "CadastroLivros.Controllers.AutorController",
+    "Method": "CriarAutor",
+    "RelativePath": "CriarAutor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[CadastroLivros.Models.AutorModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CadastroLivros.Controllers.LivroController",
+    "Method": "CriarAutor",
+    "RelativePath": "CriarLivro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Autor.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Autor.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Autor.LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Autor.Livros",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CadastroLivros.Models.LivroModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[CadastroLivros.Models.LivroModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CadastroLivros.Controllers.AutorController",
+    "Method": "EditarAutor",
+    "RelativePath": "EditarAutor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[CadastroLivros.Models.AutorModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CadastroLivros.Controllers.LivroController",
+    "Method": "EditarAutor",
+    "RelativePath": "EditarLivro",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Autor.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Autor.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Autor.LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Autor.Livros",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CadastroLivros.Models.LivroModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[CadastroLivros.Models.LivroModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CadastroLivros.Controllers.AutorController",
+    "Method": "ExcluirAutor",
+    "RelativePath": "ExcluirAutor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[CadastroLivros.Models.AutorModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CadastroLivros.Controllers.LivroController",
+    "Method": "ExcluirLivro",
+    "RelativePath": "ExcluirLivro",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[CadastroLivros.Models.LivroModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CadastroLivros.Controllers.AutorController",
+    "Method": "ListarAutorPorId",
+    "RelativePath": "ListarAutorPorId/{IdAutord}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAutor",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdAutord",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[CadastroLivros.Models.AutorModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CadastroLivros.Controllers.AutorController",
+    "Method": "ListarAutorPorIdLivro",
+    "RelativePath": "ListarAutorPorIdLivro/{IdLivro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdLivro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[CadastroLivros.Models.AutorModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CadastroLivros.Controllers.LivroController",
+    "Method": "ListarAutorPorId",
+    "RelativePath": "ListarLivroPorId/{IdAutord}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAutor",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdAutord",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[CadastroLivros.Models.LivroModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CadastroLivros.Controllers.LivroController",
+    "Method": "ListarAutorPorIdLivro",
+    "RelativePath": "ListarLivroPorIdAutor/{IdAutor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdLivro",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdAutor",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[CadastroLivros.Models.LivroModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CadastroLivros.Controllers.AutorController",
+    "Method": "ListarTodosLivros",
+    "RelativePath": "ListarTodosAutores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[CadastroLivros.Models.AutorModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CadastroLivros.Controllers.LivroController",
+    "Method": "ListarTodosLivros",
+    "RelativePath": "ListarTodosLivros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CadastroLivros.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[CadastroLivros.Models.LivroModel, CadastroLivros, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
